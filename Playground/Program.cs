@@ -2,8 +2,8 @@
 
 namespace Playground
 {
-    delegate T ThreeParamDel<T>(T a, T b, T c);
-    delegate T TwoParamDel<T>(T x, T y);
+    delegate T ParamDel<T>();
+    
     public class Program
     {
 
@@ -18,12 +18,7 @@ namespace Playground
                 Country = "Bangladesh"
             };
 
-            //var fullName = pd.FullName(pd.FirstName, pd.LastName);
-            //var address = pd.Address(pd.City, pd.Province, pd.Country);
-            var msg = pd.PersonalDetails(fullName: new TwoParamDel<string>(pd.FullName), address: new ThreeParamDel<string>(pd.Address));
-
-            //Console.WriteLine(fullName);
-            //Console.WriteLine(address);
+            var msg = pd.PersonalDetails(fullName: new ParamDel<string>(pd.FullName), address: new ParamDel<string>(pd.Address));
             Console.WriteLine(msg);
 
         }

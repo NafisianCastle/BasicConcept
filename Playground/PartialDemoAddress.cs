@@ -12,11 +12,11 @@
 
 		public string Country { get => country; set => country = value; }
 
-		public string Address(string city, string province, string country) => city + ", " + province + ", " + country;
+		public string Address() => city + ", " + province + ", " + country;
 
-		public string PersonalDetails(TwoParamDel<string> fullName, ThreeParamDel<string> address)
+		public string PersonalDetails(ParamDel<string> fullName, ParamDel<string> address)
 		{
-			return fullName(firstName, lastName) + "\n" + address(city, province, country);
+			return fullName() + "\n" + address();
 		}
 	}
 }

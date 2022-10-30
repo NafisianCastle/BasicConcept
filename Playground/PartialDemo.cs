@@ -9,7 +9,7 @@
         public string FirstName { get => firstName; set => firstName = value; }
         public string LastName { get => lastName; set => lastName = value; }
 
-        public string FullName(string firstName, string lastName)
+        public string FullName()
         {
             return firstName + " " + lastName;
         }
