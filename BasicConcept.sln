@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingDemo", "ThreadingD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Playground.csproj", "{613EBB6E-192E-4628-9534-3683A2850406}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTSession", "KTSession\KTSession.csproj", "{3B211AC4-EC8D-4B7C-B0AB-8C151C55FE1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreExample", "NetCoreExample\NetCoreExample.csproj", "{47FAE49A-8567-42CF-A539-93C7F922016E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{613EBB6E-192E-4628-9534-3683A2850406}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{613EBB6E-192E-4628-9534-3683A2850406}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{613EBB6E-192E-4628-9534-3683A2850406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B211AC4-EC8D-4B7C-B0AB-8C151C55FE1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B211AC4-EC8D-4B7C-B0AB-8C151C55FE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B211AC4-EC8D-4B7C-B0AB-8C151C55FE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B211AC4-EC8D-4B7C-B0AB-8C151C55FE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47FAE49A-8567-42CF-A539-93C7F922016E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47FAE49A-8567-42CF-A539-93C7F922016E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47FAE49A-8567-42CF-A539-93C7F922016E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47FAE49A-8567-42CF-A539-93C7F922016E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

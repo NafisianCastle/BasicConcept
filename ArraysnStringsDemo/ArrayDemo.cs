@@ -58,6 +58,8 @@ namespace ArraysnStringsDemo
 
             int[,] multiarr2 = { { 1, 2, 3 }, { 2, 54, 3 } };
 
+            int[,,] ThreeDarr = new int[2, 5, 3];
+
             /* Jagged array */
             int[][] jaggedarr = new int[2][];
 
@@ -65,7 +67,7 @@ namespace ArraysnStringsDemo
             jaggedarr[1] = new int[4] { 2, 3, 4, 5 };
 
 
-            int[,,] ThreeDarr = new int[2, 5, 3];
+            
 
 
         }
