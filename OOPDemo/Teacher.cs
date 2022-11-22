@@ -12,7 +12,12 @@ namespace OOPDemo
         public double Salary { get; set; }
         public int Status { get; set; }
 
-        protected override string Profession()
+      
+        /// <summary>
+        ///  If you use sealed keyword, the AssistantTeacher can't override Profession() of Teacher.
+        /// </summary>
+        /// <returns></returns>
+        protected    override string Profession()
         {
             string profession = "Teacher";
             return profession;

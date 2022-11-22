@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{75B8225A-6720-45C5-BB53-3A3CD20EB5C7}</ProjectGuid>
+    <ProjectGuid>{60C6DB1B-7504-4584-BBC7-FD85BDC42F4F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OOPDemo</RootNamespace>
-    <AssemblyName>OOPDemo</AssemblyName>
+    <RootNamespace>FileIODemo</RootNamespace>
+    <AssemblyName>FileIODemo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssistantTeacher.cs" />
-    <Compile Include="Course.cs" />
-    <Compile Include="Data.cs" />
-    <Compile Include="IClassroom.cs" />
-    <Compile Include="OfflineClassroom.cs" />
-    <Compile Include="OnlineClassroom.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="Teacher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

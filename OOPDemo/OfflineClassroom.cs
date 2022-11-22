@@ -10,7 +10,7 @@ namespace OOPDemo
     {
         public void ClassroomStart()
         {
-            Console.WriteLine("Class is started in Google meet.");
+            Console.WriteLine("Class is started in Campus.");
         }
     }
 }

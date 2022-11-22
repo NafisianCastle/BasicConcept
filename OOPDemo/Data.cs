@@ -6,15 +6,25 @@ using System.Threading.Tasks;
 
 namespace OOPDemo
 {
-    public class Data
-    {
-        public enum Departments
+    public enum Departments
         {
             CSE,
             EEE,
             IPE,
             ME,
             CE
+        }
+    public class Data
+    {
+
+        private IClassroom _classroom;
+        public Data(IClassroom classroom)
+        {
+            _classroom= classroom;
+        }
+        public void ClassInfo()
+        {
+            _classroom.ClassroomStart();
         }
     }
 }

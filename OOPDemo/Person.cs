@@ -6,16 +6,12 @@ using System.Threading.Tasks;
 
 namespace OOPDemo
 {
-    public class Person
+    public abstract class Person
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
 
-        protected virtual string Profession()
-        {
-            string profession = "N/A";
-            return profession;
-        }
+        protected abstract string Profession();
     }
 }
