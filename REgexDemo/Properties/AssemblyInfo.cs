@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FileIODemo")]
+[assembly: AssemblyTitle("REgexDemo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FileIODemo")]
+[assembly: AssemblyProduct("REgexDemo")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("60c6db1b-7504-4584-bbc7-fd85bdc42f4f")]
+[assembly: Guid("a97afc8d-7233-486b-b2bd-c26856d8082b")]
 
 // Version information for an assembly consists of the following four values:
 //

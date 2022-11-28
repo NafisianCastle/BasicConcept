@@ -1,30 +1,28 @@
 ﻿using iTextSharp.text.pdf;
 using iTextSharp.text.pdf.parser;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace PDFExtraction
 {
     internal class SharpMan
     {
-        private string _file;
-        public SharpMan(string file) {
+        private readonly string _file;
+        public SharpMan(string file)
+        {
             _file = file;
         }
         public void Show()
         {
-            StringBuilder sb = new StringBuilder();
+            var sb = new StringBuilder();
             try
             {
-                using (PdfReader reader = new PdfReader(_file))
+                using (var reader = new PdfReader(_file))
                 {
-                    for (int i = 1; i <= reader.NumberOfPages; i++)
+                    for (var i = 1; i <= reader.NumberOfPages; i++)
                     {
                         ITextExtractionStrategy strategy = new SimpleTextExtractionStrategy();
-                        string text = PdfTextExtractor.GetTextFromPage(reader, i, strategy);
+                        var text = PdfTextExtractor.GetTextFromPage(reader, i, strategy);
                         text = Encoding.UTF8.GetString(Encoding.Convert(Encoding.Default, Encoding.UTF8, Encoding.Default.GetBytes(text)));
 
                         sb.Append(text);
