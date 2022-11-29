@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTSession", "KTSession\KTSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreExample", "NetCoreExample\NetCoreExample.csproj", "{47FAE49A-8567-42CF-A539-93C7F922016E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{83266683-4464-4BB0-96C7-568FE83C49B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{47FAE49A-8567-42CF-A539-93C7F922016E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47FAE49A-8567-42CF-A539-93C7F922016E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47FAE49A-8567-42CF-A539-93C7F922016E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83266683-4464-4BB0-96C7-568FE83C49B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83266683-4464-4BB0-96C7-568FE83C49B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83266683-4464-4BB0-96C7-568FE83C49B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83266683-4464-4BB0-96C7-568FE83C49B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
