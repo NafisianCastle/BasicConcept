@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Pl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTSession", "KTSession\KTSession.csproj", "{3B211AC4-EC8D-4B7C-B0AB-8C151C55FE1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreExample", "NetCoreExample\NetCoreExample.csproj", "{47FAE49A-8567-42CF-A539-93C7F922016E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreExample", "NetCoreExample\NetCoreExample.csproj", "{47FAE49A-8567-42CF-A539-93C7F922016E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{83266683-4464-4BB0-96C7-568FE83C49B6}"
 EndProject
